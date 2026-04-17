@@ -72,6 +72,6 @@
 Если вы хотите собрать мод самостоятельно:
 
 ```bash
-git clone https://github.com/ВАШ_ЛОГИН/cheap-blocks-trader.git
+git clone https://github.com/Exunima/cheap-blocks-trader.git
 cd cheap-blocks-trader
 ./gradlew build
