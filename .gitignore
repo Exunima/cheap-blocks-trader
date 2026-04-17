@@ -1,0 +1,34 @@
+# Eclipse
+bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+build/
+!build/libs/         # Оставляем папку libs, чтобы JAR-файл попадал в репозиторий
+!build/libs/*.jar    # Сохраняем собранные JAR-файлы
+
+# Minecraft Forge
+run/
+logs/
+crash-reports/
+
+# Временные файлы
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Секретные данные (если будут)
+*.secret

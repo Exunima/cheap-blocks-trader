@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)" # Диапазон версий Forge для 1.16.5 (36.x.x)
+license="All rights reserved"
+
+[[mods]]
+modId="cheap_blocks_trader"
+version="1.0.0"
+displayName="Cheap Blocks Trader"
+authors="exunima"
+description='''
+Меняет торговлю картографа: все основные блоки ванильного Minecraft продаются стаками по 64 штуки за одну палку.
+'''
+
+[[dependencies.cheap_blocks_trader]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cheap_blocks_trader]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
