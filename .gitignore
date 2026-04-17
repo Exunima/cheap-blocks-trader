@@ -16,8 +16,6 @@ out/
 # Gradle
 .gradle/
 build/
-!build/libs/         # Оставляем папку libs, чтобы JAR-файл попадал в репозиторий
-!build/libs/*.jar    # Сохраняем собранные JAR-файлы
 
 # Minecraft Forge
 run/
